@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste HTML</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f1f1f1;
+      color: #4a4a6a;
+      padding: 40px;
+    }
+
+    .container {
+      display: flex;
+      gap: 40px;
+    }
+
+    .box {
+      width: 30%;
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <ul>
+        <li>Erat tempor consetetur dolor facer no molestie kasd.</li>
+        <li>Dolores ex ea ipsum labore est.</li>
+        <li>Et quod sed dolores adipiscing no diam.</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <ol>
+        <li>Erat tempor consetetur dolor facer no molestie kasd.</li>
+        <li>Dolores ex ea ipsum labore est.</li>
+        <li>Et quod sed dolores adipiscing no diam.</li>
+      </ol>
+    </div>
+
+    <div class="box">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <ol>
+        <li>Erat tempor consetetur dolor facer no molestie kasd.</li>
+        <li>Dolores ex ea ipsum labore est.</li>
+        <li>Et quod sed dolores adipiscing no diam. molestie.</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
